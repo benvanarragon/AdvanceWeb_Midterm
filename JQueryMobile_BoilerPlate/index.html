@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>jQuery Mobile - Lesson 5 (2)</title>
+    <!-- CSS Section -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/jquery.mobile-1.4.4.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Home Page Section -->
+    <div data-role="page" id="home">
+
+        <header data-role="header" data-position="fixed">
+            <h1>Welcome Home!</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-b ui-body">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active ui-state-persist" data-icon="home" data-transition="pop">Home</a></li>
+                    <li><a href="#products" data-icon="grid" data-transition="pop">Products</a></li>
+                    <li><a href="#services" data-icon="check" data-transition="pop">Services</a></li>
+                    <li><a href="#projects" data-icon="refresh" data-transition="pop">Projects</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="pop">Contact Me</a></li>
+                </ul>
+            </nav><!-- /navbar -->
+        </header>
+
+        <div class="ui-content" role="main">
+            <p id="center">Home Page Content goes here...</p>
+            <p id="homeStuff">Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper sem ornare sit amet proin sem sapien, auctor vel faucibus id, aliquet vitae ipsum etiam auctor ultricies ante, at dapibus urna viverra sed nullam mi arcu, tempor vitae interdum a, sodales non urna vestibulum dignissim auctor mauris, ac elementum purus fermentum vitae duis placerat laoreet risus, sit amet eleifend tellus lobortis non vivamus iaculis dapibus leo a ornare cras vel sem at felis convallis mollis posuere ultrices dolor sed tellus arcu, accumsan a consectetur sit amet, volutpat eget lorem phasellus quis ipsum orci integer sodales tincidunt nibh a elementum ut ac libero nec orci euismod euismod nec at nulla duis.</p>
+        </div>
+
+        <footer data-role="footer" data-position="fixed" data-theme="b">
+            <h4>©2014 All Rights Reserved.</h4>
+        </footer>
+    </div> <!-- end page wrapper -->
+
+
+
+    <!-- Product Page Section -->
+    <div data-role="page" id="products">
+
+        <header data-role="header" data-position="fixed">
+            <h1>Products</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-b ui-body">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="pop">Home</a></li>
+                    <li><a href="#products" data-icon="grid" data-transition="pop" class="ui-btn-active ui-state-persist">Products</a></li>
+                    <li><a href="#services" data-icon="check" data-transition="pop">Services</a></li>
+                    <li><a href="#projects" data-icon="refresh" data-transition="pop">Projects</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="pop">Contact Me</a></li>
+                </ul>
+            </nav><!-- /navbar -->
+        </header>
+
+        <div class="ui-content" role="main">
+            <p>Products Page Content goes here...</p>
+            <p>Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper sem ornare sit amet proin sem sapien, auctor vel faucibus id, aliquet vitae ipsum etiam auctor ultricies ante, at dapibus urna viverra sed nullam mi arcu, tempor vitae interdum a, sodales non urna vestibulum dignissim auctor mauris, ac elementum purus fermentum vitae duis placerat laoreet risus, sit amet eleifend tellus lobortis non vivamus iaculis dapibus leo a ornare cras vel sem at felis convallis mollis posuere ultrices dolor sed tellus arcu, accumsan a consectetur sit amet, volutpat eget lorem phasellus quis ipsum orci integer sodales tincidunt nibh a elementum ut ac libero nec orci euismod euismod nec at nulla duis.</p>
+        </div>
+
+        <footer data-role="footer" data-position="fixed" data-theme="b">
+            <h4>©2014 All Rights Reserved.</h4>
+        </footer>
+    </div> <!-- end page wrapper -->
+
+    <!-- Services Page Section -->
+    <div data-role="page" id="services">
+
+        <header data-role="header" data-position="fixed">
+            <h1>Services</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-b ui-body">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="pop">Home</a></li>
+                    <li><a href="#products" data-icon="grid" data-transition="pop">Products</a></li>
+                    <li><a href="#services" data-icon="check" data-transition="pop" class="ui-btn-active ui-state-persist">Services</a></li>
+                    <li><a href="#projects" data-icon="refresh" data-transition="pop">Projects</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="pop">Contact Me</a></li>
+                </ul>
+            </nav><!-- /navbar -->
+        </header>
+
+        <div class="ui-content" role="main">
+            <p>Services Page Content goes here...</p>
+            <p>Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper sem ornare sit amet proin sem sapien, auctor vel faucibus id, aliquet vitae ipsum etiam auctor ultricies ante, at dapibus urna viverra sed nullam mi arcu, tempor vitae interdum a, sodales non urna vestibulum dignissim auctor mauris, ac elementum purus fermentum vitae duis placerat laoreet risus, sit amet eleifend tellus lobortis non vivamus iaculis dapibus leo a ornare cras vel sem at felis convallis mollis posuere ultrices dolor sed tellus arcu, accumsan a consectetur sit amet, volutpat eget lorem phasellus quis ipsum orci integer sodales tincidunt nibh a elementum ut ac libero nec orci euismod euismod nec at nulla duis.</p>
+        </div>
+
+        <footer data-role="footer" data-position="fixed" data-theme="b">
+            <h4>©2014 All Rights Reserved.</h4>
+        </footer>
+    </div> <!-- end page wrapper -->
+
+    <!-- Projects Page Section -->
+    <div data-role="page" id="projects">
+
+        <header data-role="header" data-position="fixed">
+            <h1>Projects</h1><nav data-role="navbar" data-grid="d" class="ui-body-b ui-body">
+                <ul>
+                    <li><a href="#home"  data-icon="home" data-transition="pop">Home</a></li>
+                    <li><a href="#products" data-icon="grid" data-transition="pop">Products</a></li>
+                    <li><a href="#services" data-icon="check" data-transition="pop">Services</a></li>
+                    <li><a href="#projects" data-icon="refresh" data-transition="pop" class="ui-btn-active ui-state-persist">Projects</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="pop">Contact Me</a></li>
+                </ul>
+            </nav><!-- /navbar -->
+        </header>
+
+        <div class="ui-content" role="main">
+            <p>Projects Page Content goes here...</p>
+            <p>Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper sem ornare sit amet proin sem sapien, auctor vel faucibus id, aliquet vitae ipsum etiam auctor ultricies ante, at dapibus urna viverra sed nullam mi arcu, tempor vitae interdum a, sodales non urna vestibulum dignissim auctor mauris, ac elementum purus fermentum vitae duis placerat laoreet risus, sit amet eleifend tellus lobortis non vivamus iaculis dapibus leo a ornare cras vel sem at felis convallis mollis posuere ultrices dolor sed tellus arcu, accumsan a consectetur sit amet, volutpat eget lorem phasellus quis ipsum orci integer sodales tincidunt nibh a elementum ut ac libero nec orci euismod euismod nec at nulla duis.</p>
+        </div>
+
+        <footer data-role="footer" data-position="fixed" data-theme="b">
+            <h4>©2014 All Rights Reserved.</h4>
+        </footer>
+    </div> <!-- end page wrapper -->
+
+    <!-- Contact Page Section -->
+    <div data-role="page" id="contact">
+
+        <header data-role="header" data-position="fixed">
+            <h1>Contact Me</h1>
+            <nav data-role="navbar" data-grid="d" class="ui-body-b ui-body">
+                <ul>
+                    <li><a href="#home"  data-icon="home" data-transition="pop">Home</a></li>
+                    <li><a href="#products" data-icon="grid" data-transition="pop">Products</a></li>
+                    <li><a href="#services" data-icon="check" data-transition="pop">Services</a></li>
+                    <li><a href="#projects" data-icon="refresh" data-transition="pop">Projects</a></li>
+                    <li><a href="#contact" data-icon="info" data-transition="pop" class="ui-btn-active ui-state-persist">Contact Me</a></li>
+                </ul>
+            </nav><!-- /navbar -->
+        </header>
+
+        <div class="ui-content" role="main">
+            <p>Contact Page Content goes here...</p>
+            <p>Ut arcu enim, dictum quis ultrices id, sagittis eget nulla sed nunc mi, congue ut ultricies ac, varius a eros donec porttitor, libero fermentum fringilla laoreet, eros arcu sodales ante, ut dictum risus lectus vel quam integer ultricies, nunc eget elementum euismod, orci enim vestibulum orci, nec suscipit urna odio et tellus suspendisse suscipit orci sit amet sem venenatis nec lobortis sem suscipit nullam nec imperdiet velit mauris eu nisi a felis imperdiet porta at ac nulla vivamus faucibus felis nec dolor pretium eget pellentesque dolor suscipit maecenas vitae enim arcu, at tincidunt nunc pellentesque eleifend vulputate lacus, vel semper sem ornare sit amet proin sem sapien, auctor vel faucibus id, aliquet vitae ipsum etiam auctor ultricies ante, at dapibus urna viverra sed nullam mi arcu, tempor vitae interdum a, sodales non urna vestibulum dignissim auctor mauris, ac elementum purus fermentum vitae duis placerat laoreet risus, sit amet eleifend tellus lobortis non vivamus iaculis dapibus leo a ornare cras vel sem at felis convallis mollis posuere ultrices dolor sed tellus arcu, accumsan a consectetur sit amet, volutpat eget lorem phasellus quis ipsum orci integer sodales tincidunt nibh a elementum ut ac libero nec orci euismod euismod nec at nulla duis.</p>
+        </div>
+
+        <footer data-role="footer" data-position="fixed" data-theme="b">
+            <h4>©2014 All Rights Reserved.</h4>
+        </footer>
+    </div> <!-- end page wrapper -->
+
+    <!-- JavaScript Section -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.4.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
